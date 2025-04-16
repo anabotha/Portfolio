@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex; /* Establece el elemento como un contenedor de Flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+    justify-content: space-between; /* Distribuye el espacio sobrante de manera uniforme entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente en el contenedor */
+}
+
+  /* Define los estilos para los elementos contenidos en el Flexbox */
+.flex-item {
+    flex: 1 1 200px; /* Establece la proporción de crecimiento, contracción y tamaño base del elemento */
+    margin: 10px; /* Establece un margen de 10px alrededor de cada elemento */
+    text-align: center; /* Centra el contenido del elemento horizontalmente */
+    background-color: #f2f2f2; /* Establece un color de fondo gris claro para el elemento */  }
+body{
+    background-color: aqua;
+}
+.rojo{
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+}
+.azul{
+    background-color: blue;
+    align-items: start;
+    justify-content: space-around;
+}
